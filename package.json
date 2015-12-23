@@ -1,0 +1,19 @@
+{
+  "name": "passportauth",
+  "version": "1.0.0",
+  "description": "Basic auth with passsportJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cheikh Ndiaye",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.14.2",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.3",
+    "passport": "^0.3.2"
+  }
+}

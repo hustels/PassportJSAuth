@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login page </title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/custom.css">
+</head>
+<body>
+	<div class="container">
+		<h3>Password authentication</h3>
+		<div class="row">
+			<div class="col-md-6">
+				<form action="/login" method="post">
+				<input type="hidden" name="_csrf" >
+					<div>
+						<label for="username">Username</label>
+						<input type="text" name="username" class="form-control">
+					</div>
+					<div>
+						<label for="password">Password</label>
+						<input type="password" name="password" class="form-control">
+					</div>
+					<div>
+						<input type="submit" class="btn btn-success" value="Sign In">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
